@@ -1,8 +1,4 @@
 const fibonacci = function(x) {
-    
-    if(typeof x =="string"){
-        x = parseInt(x)
-    }
     if(x < 0){
         return("OOPS")
     }
